@@ -26,7 +26,7 @@ Create a Cloudflare API token with these permissions (Account-scoped):
 
 Then in n8n create a **Cloudflare AI Gateway API** credential with:
 
-- **Account ID** — your Cloudflare Account ID
+- **Account ID** — your Cloudflare Account ID ([how to find it](https://developers.cloudflare.com/fundamentals/account/find-account-and-zone-ids/))
 - **Gateway ID** — your gateway name (`default` is created automatically)
 - **API Token** — the token above
 

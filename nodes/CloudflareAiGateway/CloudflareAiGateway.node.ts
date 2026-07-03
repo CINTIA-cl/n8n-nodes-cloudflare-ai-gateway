@@ -61,6 +61,7 @@ export class CloudflareAiGateway implements INodeType {
 		group: ['transform'],
 		version: 1,
 		description: 'Language Model via Cloudflare AI Gateway (Workers AI + third-party providers)',
+		documentationUrl: 'https://www.npmjs.com/package/n8n-nodes-cloudflare-ai-gateway',
 		defaults: { name: 'Cloudflare AI Gateway' },
 		subtitle: '={{$parameter.model.value || $parameter.model}}',
 		codex: {
