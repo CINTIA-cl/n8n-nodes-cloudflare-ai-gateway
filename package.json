@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-cloudflare-ai-gateway",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "n8n community node: Cloudflare AI Gateway as a Language Model for AI Agent/Chain nodes",
   "license": "MIT",
   "homepage": "https://github.com/CINTIA-cl/n8n-nodes-cloudflare-ai-gateway#readme",
