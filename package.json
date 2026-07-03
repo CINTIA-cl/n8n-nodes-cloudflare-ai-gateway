@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "n8n community node: Cloudflare AI Gateway as a Language Model for AI Agent/Chain nodes",
   "license": "MIT",
-  "homepage": "https://github.com/doycl/n8n-nodes-cloudflare-ai-gateway#readme",
+  "homepage": "https://github.com/CINTIA-cl/n8n-nodes-cloudflare-ai-gateway#readme",
   "keywords": ["n8n-community-node-package"],
   "author": {
     "name": "Alfredo",
     "email": "alfredo@cintia.cl"
   },
-  "repository": { "type": "git", "url": "git+https://github.com/doycl/n8n-nodes-cloudflare-ai-gateway.git" },
-  "bugs": { "url": "https://github.com/doycl/n8n-nodes-cloudflare-ai-gateway/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/CINTIA-cl/n8n-nodes-cloudflare-ai-gateway.git" },
+  "bugs": { "url": "https://github.com/CINTIA-cl/n8n-nodes-cloudflare-ai-gateway/issues" },
   "scripts": {
     "build": "n8n-node build",
     "build:watch": "tsc --watch",
