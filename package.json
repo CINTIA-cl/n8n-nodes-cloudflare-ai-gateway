@@ -1,0 +1,37 @@
+{
+  "name": "n8n-nodes-cloudflare-ai-gateway",
+  "version": "0.1.0",
+  "description": "n8n community node: Cloudflare AI Gateway as a Language Model for AI Agent/Chain nodes",
+  "license": "MIT",
+  "keywords": ["n8n-community-node-package"],
+  "author": {
+    "name": "Alfredo",
+    "email": "alfredo@cintia.cl"
+  },
+  "repository": { "type": "git", "url": "" },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": ["dist"],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": false,
+    "credentials": ["dist/credentials/CloudflareAiGatewayApi.credentials.js"],
+    "nodes": ["dist/nodes/CloudflareAiGateway/CloudflareAiGateway.node.js"]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "@langchain/openai": "*",
+    "n8n-workflow": "*",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}
