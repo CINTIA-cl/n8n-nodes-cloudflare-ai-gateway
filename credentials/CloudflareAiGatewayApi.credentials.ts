@@ -12,7 +12,7 @@ export class CloudflareAiGatewayApi implements ICredentialType {
 
 	icon = { light: 'file:cloudflare.svg', dark: 'file:cloudflare.dark.svg' } as const;
 
-	documentationUrl = 'https://developers.cloudflare.com/ai-gateway/';
+	documentationUrl = 'https://www.npmjs.com/package/n8n-nodes-cloudflare-ai-gateway';
 
 	properties: INodeProperties[] = [
 		{
